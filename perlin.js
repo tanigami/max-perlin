@@ -2,8 +2,8 @@ inlets = 1;
 outlets = 1;
 
 function msg_float(value) {
-  if (this.inlet === 0) {
-    outlet(0, noise(value));
+  if (this.inlet === 0 ) {
+  	outlet(0, noise(value));
   }
 }
 
@@ -16,7 +16,7 @@ function list() {
 }
 
 
-var noiseProfile = { seed: undefined, fallout: 0.5 };
+noiseProfile = { seed: 5, fallout: 0.5, generator: undefined };
 
 // Pseudo-random generator
 function Marsaglia(i1, i2) {
@@ -147,9 +147,11 @@ function PerlinNoise(seed) {
  * @see noiseDetail
  */
 noise = function (x, y, z) {
-
-  noiseProfile.generator = new PerlinNoise(noiseProfile.seed);
-
+  if (noiseProfile.generator === undefined) {
+    // caching
+    noiseProfile.generator = new PerlinNoise(noiseProfile.seed);
+  }
+  
   var generator = noiseProfile.generator;
   var effect = 1, k = 1, sum = 0;
   for (var i = 0; i < 4; ++i) {
