@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 968.0, 712.0 ],
+		"rect" : [ 100.0, 100.0, 587.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 150.0, 450.0, 74.0 ],
-					"presentation_rect" : [ 78.0, 143.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Simplex noise is a method for constructing an n-dimensional noise function comparable to Perlin noise (\"classic\" noise) but with fewer directional artifacts and, in higher dimensions, a lower computational overhead. Ken Perlin designed the algorithm in 2001 to address the limitations of his classic noise function, especially in higher dimensions.",
 					"textcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
@@ -59,8 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 120.0, 195.0, 20.0 ],
 					"style" : "",
-					"text" : "Generate 1D to 4D Simplex Noise",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "Generate 1D to 4D Simplex Noise"
 				}
 
 			}
@@ -83,13 +81,12 @@
 					"format" : 6,
 					"id" : "obj-93",
 					"maxclass" : "flonum",
-					"minimum" : 0.001,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 788.0, 81.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 777.0, 71.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +96,7 @@
 					"format" : 6,
 					"id" : "obj-92",
 					"maxclass" : "flonum",
-					"minimum" : 0.001,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -117,7 +114,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 660.0, 195.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 661.0, 139.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t i i"
 				}
@@ -144,7 +140,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 615.0, 300.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 558.0, 255.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "- 1"
 				}
@@ -197,7 +192,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
 					"patching_rect" : [ 585.0, 195.0, 49.0, 22.0 ],
-					"presentation_rect" : [ 584.0, 115.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "uzi 150"
 				}
@@ -362,7 +356,7 @@
 					"format" : 6,
 					"id" : "obj-8",
 					"maxclass" : "flonum",
-					"minimum" : 0.001,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
