@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 587.0, 712.0 ],
+		"rect" : [ 105.0, 79.0, 1005.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,37 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 788.0, 343.5, 155.0, 25.0 ],
+					"presentation_rect" : [ 745.0, 385.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "List for 2D to 4D noise"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 120.0, 403.5, 135.0, 25.0 ],
+					"style" : "",
+					"text" : "Float for ID noise"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-97",
 					"linecount" : 5,
@@ -86,7 +117,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 788.0, 81.0, 50.0, 22.0 ],
+					"patching_rect" : [ 788.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -101,7 +132,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 728.0, 81.0, 50.0, 22.0 ],
+					"patching_rect" : [ 728.0, 105.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
